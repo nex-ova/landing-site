@@ -1,20 +1,20 @@
+import emailjs from '@emailjs/browser';
+import { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import Sidebar from "../../componenet/sidebar";
+import SocialIcon from "../../componenet/socialicon";
 import { IMAGES, SVGICONS } from "../../constant/theme";
 import Footer from "../../layout/footer";
 import Header from "../../layout/header";
-import SocialIcon from "../../componenet/socialicon";
-import emailjs from '@emailjs/browser'; 
-import { useEffect, useRef } from "react";
 
 
 function BlogDetails() {
     useEffect(()=>{
         document.body.classList.add("overflow-visible")
-    }) 
-    const form = useRef(); 
+    })
+    const form = useRef();
     const sendEmail = (e) => {
-        e.preventDefault(); 
+        e.preventDefault();
         emailjs.sendForm('service_61hny88', 'template_5f6jp4o', form.current, {publicKey: 'aYOgb_ORYkjD-hXhl',})
         .then((result) => {
             console.log('SUCCESS!', result.text);
@@ -47,7 +47,7 @@ function BlogDetails() {
                             <div className="quotes">
                                 <div>
                                     <img src={IMAGES.doublequote} alt="img" />
-                                    <h5>Worker At  Madula</h5>
+                                    <h5>Worker At  vionixcare</h5>
                                 </div>
                                 <p>Have you tried any of the recommendations or treatments mentioned? Let us know how they worked for you. Your experience might inspire others!</p>
                             </div>
