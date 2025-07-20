@@ -39,7 +39,7 @@
      .contact-information ul.social-icon {
     	padding-top: 42px;
 	}
-	.hero-section .hero-text h1 {
+	.hero-section .hero-text h1 .main-heading-text {
     	font-size: 70px;
 	}
 	header .navbar-links li > a {
@@ -749,7 +749,7 @@
 	    width: 100px;
 	    height: 100px;
 	} 
-	.hero-section .hero-text h1,
+	.hero-section .hero-text h1 .main-heading-text,
 	.hero-text h1 {
     	font-size: 56px;
 	}
@@ -1180,7 +1180,7 @@
 	.hero-style-two .counter > div {
     border-right: 0; 
 		}
-		.hero-section .hero-text h1,
+		.hero-section .hero-text h1 .main-heading-text,
      .hero-style-two .hero-text h1 { 
 	    font-size: 43px;
 		}
@@ -1219,7 +1219,7 @@
 	}
 } 
 @media(max-width: 576px) {
-	.hero-section .hero-text h1,
+	.hero-section .hero-text h1 .main-heading-text,
 	.hero-text h1 {
     	font-size: 40px;
 	}
@@ -1552,4 +1552,6 @@
 	.contact-footer ul.footer-link-list li h6 {
      	font-size: 14px;
 	}
+
+	
 }  

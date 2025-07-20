@@ -1203,6 +1203,7 @@ ul.shaps li:nth-child(5) img {
     padding: 40px;
     position: relative;
     margin: 15px;
+    height: 400px;
 } 
 .services:before {
     width: 100%;
@@ -4322,3 +4323,6 @@ ul.pagination li a:hover {
 .main-bar{
     height: 90px;
 }
+
+
+

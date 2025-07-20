@@ -14,8 +14,8 @@ import Blog from "../../componenet/blog";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, FreeMode, Navigation } from "swiper/modules";
 import CountUp from "react-countup";
-import { servicesliderdata } from "../../constant/alldata";
-import { workingdata } from "../../constant/alldata";
+import { ourServices } from "../../constant/alldata";
+import { stepProcess } from "../../constant/alldata";
 
 function Index() {
   return (
@@ -30,17 +30,20 @@ function Index() {
                   <i className="fa-solid fa-heart" />
                   Solutions for Smarter Healthcare
                 </span>
-                <h1>
-                  AUTOMATE ROUTINE, ELEVATE <span>CARE</span>
+                <h1 class="main-heading-text">
+                  Automate Routine, Elevate <span>Care</span>
                 </h1>
                 <p>
-                  we are dedicated to putting your health at the forefront of
-                  everything we do. Our compassionate team of healthcare.
+                  We are dedicated to transforming healthcare operations by
+                  eliminating time-consuming manual tasks through secure,
+                  HIPAA-compliant automation. Our compassionate team of experts
+                  empowers you to focus on what truly matters - delivering
+                  outstanding patient care.
                 </p>
                 <div className="experience">
                   <Link to={"/about"} className="btn">
                     <span>
-                      Read More
+                      Get Started
                       <i className="fa-solid fa-arrow-right" />
                     </span>
                   </Link>
@@ -59,37 +62,37 @@ function Index() {
                     </li>
                   </ul>
                   <div>
-                    <h6>2000+</h6>
-                    <span>Experience Team</span>
+                    <h6>30+ Years</h6>
+                    <span>Healthtech Experts</span>
                   </div>
                 </div>
                 <img src={IMAGES.shape3} alt="img" className="shaps-3" />
               </div>
               <div className="counter">
                 <div>
-                  <h2 data-max="500">
+                  <h2 data-max="800">
                     <span>
-                      <CountUp end={500} duration={5} />+
+                      <CountUp end={800} duration={5} />+
                     </span>
                   </h2>
-                  <span>Patients Served</span>
+                  <span>Hours Automated</span>
                 </div>
                 <div>
-                  <h2 data-max="2">
+                  <h2 data-max="3">
                     <span>
-                      <CountUp end={2} duration={5} />
+                      <CountUp end={3} duration={5} />
                       M+
                     </span>
                   </h2>
-                  <span>Reports Delivered</span>
+                  <span>Transactions Processed</span>
                 </div>
                 <div>
-                  <h2 data-max="100">
+                  <h2 data-max="150">
                     <span>
-                      <CountUp end={100} duration={5} />+
+                      <CountUp end={150} duration={5} />+
                     </span>
                   </h2>
-                  <span>Expert Specialists</span>
+                  <span>Satisfied Clients</span>
                 </div>
               </div>
             </div>
@@ -122,7 +125,7 @@ function Index() {
         <div className="container">
           <div className="heading ">
             <span># Our Services</span>
-            <h2>Our Medical Services.</h2>
+            <h2>Our Services.</h2>
           </div>
           <Swiper
             className="swiper services-slider"
@@ -154,17 +157,14 @@ function Index() {
               },
             }}
           >
-            {servicesliderdata.map((data, i) => (
+            {ourServices.map((data, i) => (
               <SwiperSlide key={i}>
                 <div className={`services ${data.columnstand}`}>
                   <i> {data.icon} </i>
                   <h4>
                     <Link to={"#"}>{data.title}</Link>
                   </h4>
-                  <p>
-                    Our comprehensive preventive care services are designed to
-                    identify potential.
-                  </p>
+                  <p>{data.descriptions}</p>
                   <Link to={"/services-details"}>
                     Read More
                     <i className="fa-solid fa-arrow-right" />
@@ -188,7 +188,7 @@ function Index() {
       </section>
       <Marquee1 />
       <Marquee2 />
-      <Medical />
+      {/* <Medical /> */}
       <Whychoose />
 
       <section className="working-process-section">
@@ -198,7 +198,7 @@ function Index() {
             <h2>From Consultation to Care.</h2>
           </div>
           <div className="row">
-            {workingdata.map((data, i) => (
+            {stepProcess.map((data, i) => (
               <div className="col-lg-4 col-md-6" key={i}>
                 <div className="working-process">
                   <div className="working-process-img">
@@ -211,11 +211,7 @@ function Index() {
                     <span>{data.number}</span>
                   </div>
                   <h3>{data.title}</h3>
-                  <p>
-                    We start with a thorough examination and a detailed
-                    discussion to understand your dental concerns, goals, and
-                    medical history.
-                  </p>
+                  <p>{data.descriptions}</p>
                 </div>
               </div>
             ))}
