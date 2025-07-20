@@ -1,0 +1,109 @@
+{
+  "hash": "e6d23098",
+  "configHash": "a9a63a7f",
+  "lockfileHash": "8ecfa55a",
+  "browserHash": "1f0b30b2",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/.pnpm/react@19.1.0/node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "4dcae23c",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/.pnpm/react-dom@19.1.0_react@19.1.0/node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "0674cd1a",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/.pnpm/react-router-dom@7.7.0_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "aa52ecea",
+      "needsInterop": false
+    },
+    "react-bootstrap": {
+      "src": "../../node_modules/.pnpm/react-bootstrap@2.10.10_@types+react@19.1.8_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/react-bootstrap/esm/index.js",
+      "file": "react-bootstrap.js",
+      "fileHash": "43d65053",
+      "needsInterop": false
+    },
+    "react-bootstrap/Accordion": {
+      "src": "../../node_modules/.pnpm/react-bootstrap@2.10.10_@types+react@19.1.8_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/react-bootstrap/esm/Accordion.js",
+      "file": "react-bootstrap_Accordion.js",
+      "fileHash": "4953e587",
+      "needsInterop": false
+    },
+    "react-countup": {
+      "src": "../../node_modules/.pnpm/react-countup@6.5.3_react@19.1.0/node_modules/react-countup/build/index.js",
+      "file": "react-countup.js",
+      "fileHash": "a1671727",
+      "needsInterop": true
+    },
+    "@emailjs/browser": {
+      "src": "../../node_modules/.pnpm/@emailjs+browser@4.4.1/node_modules/@emailjs/browser/es/index.js",
+      "file": "@emailjs_browser.js",
+      "fileHash": "0bfccba2",
+      "needsInterop": false
+    },
+    "swiper/react": {
+      "src": "../../node_modules/.pnpm/swiper@11.2.10/node_modules/swiper/swiper-react.mjs",
+      "file": "swiper_react.js",
+      "fileHash": "eb17719e",
+      "needsInterop": false
+    },
+    "swiper/modules": {
+      "src": "../../node_modules/.pnpm/swiper@11.2.10/node_modules/swiper/modules/index.mjs",
+      "file": "swiper_modules.js",
+      "fileHash": "4bb216d9",
+      "needsInterop": false
+    },
+    "react-circular-progressbar": {
+      "src": "../../node_modules/.pnpm/react-circular-progressbar@2.2.0_react@19.1.0/node_modules/react-circular-progressbar/dist/index.esm.js",
+      "file": "react-circular-progressbar.js",
+      "fileHash": "355dc12b",
+      "needsInterop": false
+    },
+    "lightgallery/react": {
+      "src": "../../node_modules/.pnpm/lightgallery@2.8.3/node_modules/lightgallery/react/Lightgallery.es5.js",
+      "file": "lightgallery_react.js",
+      "fileHash": "f43eeac6",
+      "needsInterop": false
+    },
+    "lightgallery/plugins/thumbnail": {
+      "src": "../../node_modules/.pnpm/lightgallery@2.8.3/node_modules/lightgallery/plugins/thumbnail/lg-thumbnail.es5.js",
+      "file": "lightgallery_plugins_thumbnail.js",
+      "fileHash": "f0b44ecd",
+      "needsInterop": false
+    },
+    "lightgallery/plugins/autoplay": {
+      "src": "../../node_modules/.pnpm/lightgallery@2.8.3/node_modules/lightgallery/plugins/autoplay/lg-autoplay.es5.js",
+      "file": "lightgallery_plugins_autoplay.js",
+      "fileHash": "c1d6e57e",
+      "needsInterop": false
+    },
+    "lightgallery/plugins/zoom": {
+      "src": "../../node_modules/.pnpm/lightgallery@2.8.3/node_modules/lightgallery/plugins/zoom/lg-zoom.es5.js",
+      "file": "lightgallery_plugins_zoom.js",
+      "fileHash": "548e4a7a",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-IXH7P57K": {
+      "file": "chunk-IXH7P57K.js"
+    },
+    "chunk-N5P5IXHH": {
+      "file": "chunk-N5P5IXHH.js"
+    },
+    "chunk-OLTW7SIU": {
+      "file": "chunk-OLTW7SIU.js"
+    },
+    "chunk-54FEGWNZ": {
+      "file": "chunk-54FEGWNZ.js"
+    },
+    "chunk-5WRI5ZAA": {
+      "file": "chunk-5WRI5ZAA.js"
+    }
+  }
+}
