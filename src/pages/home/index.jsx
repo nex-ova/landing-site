@@ -164,6 +164,7 @@ function Index() {
                   <h4>
                     <Link to={"#"}>{data.title}</Link>
                   </h4>
+                  https://vionix-care.vercel.app/
                   <p>{data.descriptions}</p>
                   <Link to={"#"}>
                     Read More
@@ -227,39 +228,7 @@ function Index() {
       <div className="container">
         <BrandSwiper />
       </div>
-      <section className="gap section-blog">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-8">
-              <div className="heading">
-                <span># blog</span>
-                <h2>Our Medical Blog.</h2>
-              </div>
-            </div>
-            <div className="col-lg-4">
-              <div className="btn-left">
-                <Link to={"#"} className="btn">
-                  <span>
-                    View All Blog
-                    <i className="fa-solid fa-arrow-right" />
-                  </span>
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <Blog />
-          </div>
-        </div>
-        <ul className="shaps">
-          <li>
-            <img src={IMAGES.shape7} alt="img" />
-          </li>
-          <li>
-            <img src={IMAGES.shape8} alt="img" />
-          </li>
-        </ul>
-      </section>
+      <section className="gap section-blog"></section>
 
       <Footer />
     </>
