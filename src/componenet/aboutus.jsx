@@ -56,7 +56,7 @@ function AboutUs() {
                   Dedicated to measurable improvements in public health outcomes
                 </li>
               </ul>
-              <Link to={"/about"} className="btn two">
+              <Link to={"/contact"} className="btn two">
                 <span>
                   Contact Us
                   <i className="fa-solid fa-arrow-right" />

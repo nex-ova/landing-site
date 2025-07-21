@@ -360,7 +360,28 @@ export const mainMenudata = [
   },
   { title: "What we do", link: "#" },
   { title: "How we do", link: "#" },
-  { title: "Contact us", link: "#" },
+  { title: "Contact us", link: "/contact" },
+];
+
+export const mainFooterdata = [
+  {
+    title: "Link",
+    links: [
+      { title2: "Home", url: "#" },
+      { title2: "What We Do", url: "#" },
+      { title2: "How We Do", url: "#" },
+      { title2: "Contact Us", url: "/contact" },
+    ],
+  },
+  {
+    title: "Services",
+    links: [
+      { title2: "RCM Automation", url: "#" },
+      { title2: "Insurance Verification", url: "#" },
+      { title2: "Patient Scheduling", url: "#" },
+      { title2: "EHR Integration", url: "#" },
+    ],
+  },
 ];
 
 export const ourServices = [

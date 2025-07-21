@@ -130,7 +130,7 @@ function Header() {
                   <i>{SVGICONS.search} </i>
                 </Link>
               </div>
-              <Link to="/apponiment" className="btn">
+              <Link to="/contact" className="btn">
                 <span>
                   Get Started
                   <i className="fa-solid fa-arrow-right" />
@@ -142,7 +142,7 @@ function Header() {
         <div className={`mobile-nav ${show ? "open" : ""}`} id="mobile-nav">
           <div className="res-log">
             <Link to="/">
-              <img alt="logo" src={IMAGES.logo} />
+              <img alt="logo" src={IMAGES.mainLogo} />
             </Link>
           </div>
           <ul>

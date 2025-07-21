@@ -41,7 +41,7 @@ function Index() {
                   outstanding patient care.
                 </p>
                 <div className="experience">
-                  <Link to={"/about"} className="btn">
+                  <Link to={"/contact"} className="btn">
                     <span>
                       Get Started
                       <i className="fa-solid fa-arrow-right" />
@@ -165,7 +165,7 @@ function Index() {
                     <Link to={"#"}>{data.title}</Link>
                   </h4>
                   <p>{data.descriptions}</p>
-                  <Link to={"/services-details"}>
+                  <Link to={"#"}>
                     Read More
                     <i className="fa-solid fa-arrow-right" />
                   </Link>
@@ -238,7 +238,7 @@ function Index() {
             </div>
             <div className="col-lg-4">
               <div className="btn-left">
-                <Link to={"/our-blog"} className="btn">
+                <Link to={"#"} className="btn">
                   <span>
                     View All Blog
                     <i className="fa-solid fa-arrow-right" />
