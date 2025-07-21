@@ -353,6 +353,16 @@ export const chooseusdata = [
 
 // ------------------------------------------------------------------------------------------------------------------------
 
+export const mainMenudata = [
+  {
+    title: "Home",
+    link: "#",
+  },
+  { title: "What we do", link: "#" },
+  { title: "How we do", link: "#" },
+  { title: "Contact us", link: "#" },
+];
+
 export const ourServices = [
   {
     icon: SVGICONS.medical,

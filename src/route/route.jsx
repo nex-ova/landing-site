@@ -18,35 +18,35 @@ import ScrollTopButton from "../componenet/scrolltotop";
 import Appiontment from "../componenet/apponiment";
 
 const rootdata = [
-    { path: "/", element: <Index /> },
-    { path: "/index", element: <Index /> },
-    { path: "/index-2", element: <Index2 /> },
-    { path: "/index-3", element: <Index3 /> },
-    { path: "/about", element: <About /> },
-    { path: "/portfolio", element: <Portfolio /> },
-    { path: "/portfolio-details", element: <PortfolioDetails /> },
-    { path: "/services", element: <Services /> },
-    { path: "/services-details", element: <ServicesDeatails /> },
-    { path: "/testimonials", element: <Testimonials /> },
-    { path: "/pricing-table", element: <PricingTable /> },
-    { path: "/faq", element: <Faq /> },
-    { path: "/our-blog", element: <OurBlog /> },
-    { path: "/blog-details", element: <BlogDetails /> },
-    { path: "/contact", element: <Contact /> },
-    { path: "/apponiment", element: <Appiontment /> },
-]
+  { path: "/", element: <Index /> },
+  //   { path: "/index", element: <Index /> },
+  //   { path: "/index-2", element: <Index2 /> },
+  //   { path: "/index-3", element: <Index3 /> },
+  //   { path: "/about", element: <About /> },
+  //   { path: "/portfolio", element: <Portfolio /> },
+  //   { path: "/portfolio-details", element: <PortfolioDetails /> },
+  //   { path: "/services", element: <Services /> },
+  //   { path: "/services-details", element: <ServicesDeatails /> },
+  //   { path: "/testimonials", element: <Testimonials /> },
+  //   { path: "/pricing-table", element: <PricingTable /> },
+  //   { path: "/faq", element: <Faq /> },
+  //   { path: "/our-blog", element: <OurBlog /> },
+  //   { path: "/blog-details", element: <BlogDetails /> },
+  //   { path: "/contact", element: <Contact /> },
+  //   { path: "/apponiment", element: <Appiontment /> },
+];
 
 function Root() {
-    return (
-        <BrowserRouter>
-            <Scroll />
-            <Routes>
-                {rootdata.map((data, i) => (
-                    <Route key={i} path={data.path} element={data.element} />
-                ))}
-            </Routes>
-            <ScrollTopButton />
-        </BrowserRouter>
-    );
+  return (
+    <BrowserRouter>
+      <Scroll />
+      <Routes>
+        {rootdata.map((data, i) => (
+          <Route key={i} path={data.path} element={data.element} />
+        ))}
+      </Routes>
+      <ScrollTopButton />
+    </BrowserRouter>
+  );
 }
 export default Root;
