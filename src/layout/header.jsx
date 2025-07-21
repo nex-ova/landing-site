@@ -142,7 +142,17 @@ function Header() {
         <div className={`mobile-nav ${show ? "open" : ""}`} id="mobile-nav">
           <div className="res-log">
             <Link to="/">
-              <img alt="logo" src={IMAGES.mainLogo} />
+              <img
+                alt="logo"
+                src={IMAGES.mainLogo}
+                style={{
+                  width: "48px",
+                  height: "48px",
+                  filter: "brightness(1.1)",
+                  objectFit: "contain",
+                  marginBottom: "2px",
+                }}
+              />
             </Link>
           </div>
           <ul>

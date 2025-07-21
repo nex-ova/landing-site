@@ -62,7 +62,6 @@ function AboutUs() {
                   <i className="fa-solid fa-arrow-right" />
                 </span>
               </Link>
-              <img src={IMAGES.sign} alt="img" className="signature" />
             </div>
           </div>
           <div className="col-lg-4">
