@@ -164,7 +164,6 @@ function Index() {
                   <h4>
                     <Link to={"#"}>{data.title}</Link>
                   </h4>
-                  https://vionix-care.vercel.app/
                   <p>{data.descriptions}</p>
                   <Link to={"#"}>
                     Read More
