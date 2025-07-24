@@ -224,9 +224,6 @@ function Index() {
         />
       </section>
 
-      <div className="container">
-        <BrandSwiper />
-      </div>
       <section className="gap section-blog"></section>
 
       <Footer />
