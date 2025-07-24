@@ -223,7 +223,7 @@ function Index() {
           className="working-process-line"
         />
       </section>
-      <TestiSwiper />
+
       <div className="container">
         <BrandSwiper />
       </div>
