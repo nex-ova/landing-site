@@ -356,9 +356,9 @@ export const chooseusdata = [
 export const mainMenudata = [
   {
     title: "Home",
-    link: "#",
+    link: "/",
   },
-  { title: "What we do", link: "#" },
+  { title: "What we do", link: "/what-we-do" },
   { title: "How we do", link: "#" },
   { title: "Contact us", link: "/contact" },
 ];
