@@ -115,7 +115,7 @@ const UserCaseRight = ({ title, quote, image }) => {
     </>
   );
   return (
-    <div className="my-5 px-3 px-md-5">
+    <div className="my-5 ">
       <div className="row align-items-center justify-content-center">
         <div className="col-12 col-xl-6 mb-4 mb-xl-0">
           <Fade
@@ -180,7 +180,7 @@ const UserCaseLeft = ({ title, quote, image }) => {
     </>
   );
   return (
-    <div className="my-5 px-3 px-md-5">
+    <div className="my-5 ">
       <div className="row align-items-center justify-content-center flex-row-reverse flex-xl-row">
         <div className="col-12 col-xl-6 mb-4 mb-xl-0 d-flex justify-content-center">
           <Fade
@@ -212,7 +212,7 @@ const UserCaseLeft = ({ title, quote, image }) => {
 export default function WhatWeDoUserCase() {
   return (
     <>
-      <div className="d-none d-xl-block  container mt-5  ">
+      <div className="d-none d-xl-block  container mt-5 ">
         {data.map((report, index) =>
           index % 2 === 0 ? (
             <UserCaseRight key={report.id} {...report} />

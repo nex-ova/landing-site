@@ -17,7 +17,13 @@ function WhatWeDo() {
       <Header />
       <PageBanner title="What We Do" image={IMAGES.bannrimag} />
       <section className="gap">
-        <WhatWeDoUserCase />
+        <div className="container">
+          <div className="heading ">
+            <span># User Case</span>
+            <h2>User Case.</h2>
+          </div>
+          <WhatWeDoUserCase />
+        </div>
       </section>
 
       <Footer />
