@@ -27,13 +27,13 @@ const GettingStarted = () => {
       number: 2,
       title: "Focus on ROI",
       description:
-        "We prioritize delivering a positive return on investment, ensuring Welly pays for itself many times over.",
+        "We prioritize delivering a positive return on investment, ensuring Vionix Care pays for itself many times over.",
     },
     {
       number: 3,
       title: "Seamless Onboarding and Support",
       description:
-        "Benefit from comprehensive training and ongoing support to make sure Welly integrates smoothly and performs flawlessly from day one.",
+        "Benefit from comprehensive training and ongoing support to make sure Vionix Care integrates smoothly and performs flawlessly from day one.",
     },
   ];
 
@@ -41,7 +41,7 @@ const GettingStarted = () => {
   const renderText = () => (
     <div className="text-center mb-5">
       <h2 className="fs-2 fw-semibold text-primary">
-        Getting Started with Welly is Simple
+        Getting Started with Vionix Care is Simple
       </h2>
     </div>
   );
@@ -81,7 +81,7 @@ const GettingStarted = () => {
             <Fade direction="up" triggerOnce={true}>
               <img
                 src="/images/square-apply.webp"
-                alt="A visual representation of the Welly process"
+                alt="A visual representation of the Vionix Care process"
                 className="img-fluid rounded-3"
               />
             </Fade>

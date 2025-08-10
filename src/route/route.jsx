@@ -21,8 +21,8 @@ import Appiontment from "../componenet/apponiment";
 
 const rootdata = [
   { path: "/", element: <Index /> },
-  { path: "/what-we-do", element: <WhatWeDo /> },
-  { path: "/how-we-do", element: <HowWeDo /> },
+  { path: "/what", element: <WhatWeDo /> },
+  { path: "/how", element: <HowWeDo /> },
 
   { path: "/contact", element: <Contact /> },
 ];

@@ -18,22 +18,22 @@ const Capabilities = () => {
     {
       id: 1,
       items: [
-        "Welly integrates effortlessly with a wide range of complex medical systems, including Electronic Medical Records (EMRs) and billing software, ensuring a cohesive workflow across platforms.",
-        "Easily trainable and quickly deployable, Welly adapts to your unique workflows, allowing for minimal disruption during implementation.",
+        "Vionix Care integrates effortlessly with a wide range of complex medical systems, including Electronic Medical Records (EMRs) and billing software, ensuring a cohesive workflow across platforms.",
+        "Easily trainable and quickly deployable, Vionix Care adapts to your unique workflows, allowing for minimal disruption during implementation.",
       ],
     },
     {
       id: 2,
       items: [
-        "Welly manages data entry and transfers with precision, ensuring fast, accurate, and reliable information flow throughout your practice.",
-        "From insurance eligibility checks to claim submissions and payment reconciliation, Welly automates the entire insurance process, reducing manual effort and enhancing accuracy.",
+        "Vionix Care manages data entry and transfers with precision, ensuring fast, accurate, and reliable information flow throughout your practice.",
+        "From insurance eligibility checks to claim submissions and payment reconciliation, Vionix Care automates the entire insurance process, reducing manual effort and enhancing accuracy.",
       ],
     },
     {
       id: 3,
       items: [
-        "Welly automatically imports diagnostic images into your EMR systems, significantly reducing the potential for manual errors and improving workflow efficiency.",
-        "Welly is proficient in various data exchange standards such as HL7, EDI, X12, DICOM, SOAP, XML, JSON, and other standard APIs, ensuring compatibility with existing systems.",
+        "Vionix Care automatically imports diagnostic images into your EMR systems, significantly reducing the potential for manual errors and improving workflow efficiency.",
+        "Vionix Care is proficient in various data exchange standards such as HL7, EDI, X12, DICOM, SOAP, XML, JSON, and other standard APIs, ensuring compatibility with existing systems.",
       ],
     },
   ];
@@ -43,12 +43,12 @@ const Capabilities = () => {
     <div className="row justify-content-center">
       <div className="col-lg-9">
         <h2 className="fs-2 fw-semibold text-primary">
-          Welly’s Capabilities at a Glance
+          Vionix Care Capabilities at a Glance
         </h2>
         <p className="fs-5 text-muted mt-3 mb-5">
-          Welly is equipped with a diverse array of capabilities designed to
-          streamline operations and enhance efficiency in your practice. Here’s
-          a snapshot of what Welly can do:
+          Vionix Care is equipped with a diverse array of capabilities designed
+          to streamline operations and enhance efficiency in your practice.
+          Here’s a snapshot of what Vionix Care can do:
         </p>
       </div>
     </div>

@@ -23,7 +23,7 @@ const RightChoice = () => {
           imageUrl: "/images/bot/24-7_support.webp",
           title: "24/7 Support",
           description:
-            "Welly never takes a break—working tirelessly day and night.",
+            "Vionix Care never takes a break—working tirelessly day and night.",
         },
         {
           imageUrl: "/images/bot/vision_support.webp",
@@ -71,7 +71,7 @@ const RightChoice = () => {
     <div className="  mb-5">
       <div className="container">
         <h2 className="text-center fw-semibold text-primary fs-1 mb-4">
-          Why Welly is the Right Choice for Your Practice
+          Why Vionix Care is the Right Choice for Your Practice
         </h2>
 
         <div className="d-flex flex-column flex-lg-row justify-content-center align-items-center">

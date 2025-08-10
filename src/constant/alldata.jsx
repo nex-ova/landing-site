@@ -358,8 +358,8 @@ export const mainMenudata = [
     title: "Home",
     link: "/",
   },
-  { title: "What we do", link: "/what-we-do" },
-  { title: "How we do", link: "/how-we-do" },
+  { title: "What we do", link: "/what" },
+  { title: "How we do", link: "/how" },
   { title: "Contact us", link: "/contact" },
 ];
 

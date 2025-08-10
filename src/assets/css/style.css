@@ -102,7 +102,7 @@
 
 /* 01. root */
 :root {
-  --theme-colour: #5454FF;
+  --theme-colour: #2d63d4;
   --common-colour: #021935;
   --common-font: "Sora";
 }
@@ -610,7 +610,7 @@ li.menu-item-has-children.active {
     z-index: 99999;
     margin-top: -540px;
     transform: translateY(-100%);
-    background-color: #5454ffd9;
+    background-color: #2d63d4;
     -webkit-transition: all 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
     -moz-transition: all 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
     -o-transition: all 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
@@ -1177,7 +1177,7 @@ ul.shaps li:nth-child(5) img {
     text-transform: capitalize;
     font-weight: 600;
     font-size: 22px;
-    color: #5050f4;
+    color: #2d63d4;
     font-family: 'Sora';
     padding-bottom: 6px;
     display: block;
@@ -1353,7 +1353,7 @@ ul.list-style li:before {
     content: "";position: absolute;
     width: 10px;
     height: 10px;
-    background-color: #5050f4;
+    background-color: #2d63d4;
     border-radius: 50%;
     left: 0;
     top: 8px;
@@ -1426,7 +1426,7 @@ ul.list-style li:before {
 }
 /* 18. marquee */
 .marquee-icon {
-    background-color: #5050f3;
+    background-color: #2d63d4;
     padding: 20px;
 } 
 .marquee-content {
@@ -1638,7 +1638,7 @@ ul.list-style li:before {
     width: 80px;
     height: 80px;
     padding: 17px;
-    background-color: #5050f3;
+    background-color: #2d63d4;
     border-radius: 50%;
 } 
 .circle-img img.circle {
@@ -1654,7 +1654,7 @@ ul.list-style li:before {
     position: absolute;
     width: 71%;
     height: 100%;
-    background-color: #5050f3;
+    background-color: #2d63d4;
     left: 38px;
     z-index: -1;
     transform: rotate(5deg);
@@ -1946,7 +1946,7 @@ footer {
 }
 /* 27. subscribe */
 .subscribe {
-    background-color: #5555ff;
+    background-color: #2d63d4;
     padding: 50px;
     display: flex;
     align-items: center;
@@ -2022,7 +2022,7 @@ ul.footer-link-list li:not(:last-child) {
     padding-bottom: 16px;
 }
 ul.footer-link-list li a:hover {
-    color: #5454fc;
+    color: #2d63d4;
 }
 /* 30. contact-footer */
 .contact-footer ul.footer-link-list li span,
@@ -2050,14 +2050,14 @@ ul.footer-link-list li a:hover {
     border-top: 1px solid #d7d7d7;
 } 
 .copyright span {
-    color: #5555ff;
+    color: #2d63d4;
 } 
 .copyright ul {
     display: flex;
     gap: 30px;
 } 
 .copyright ul a:hover {
-    color: #5555ff;
+    color: #2d63d4;
 }
 .copyright ul li a {
     color: #646464;
@@ -3307,7 +3307,7 @@ p.num svg {
     opacity: 0;
 }  
 .dental-project-text h3 a {
-    background-color: #5050f3;
+    background-color: #2d63d4;
     padding: 10px;
     font-size: 24px;
     color: #fff;
@@ -3487,8 +3487,8 @@ p.num svg {
      border-color:transparent;
 }
 .reviewtwo-slider .review:hover {
-    background-color: #5050f3;
-    border: 1px solid #5050f3;
+    background-color: #2d63d4;
+    border: 1px solid #2d63d4;
 } 
 .reviewtwo-slider .review:hover p,
 .reviewtwo-slider .review:hover h5,
@@ -3751,7 +3751,7 @@ ul.services-list li:before {
     position: absolute;
     width: 0%;
     height: 100%;
-    background-color: #5555ff;
+    background-color: #2d63d4;
 } 
 ul.services-list li:hover:before {
     width: 100%;
@@ -3765,7 +3765,7 @@ ul.services-list li:not(:last-child) {
 /* 70. services-details */
 .services-details > i {
     align-items: center;
-    background-color: #5555ff;
+    background-color: #2d63d4;
     width: 90px;
     height: 90px;
     display: flex;
@@ -3913,7 +3913,7 @@ img.extra-images-two {
     background-color: var(--common-colour);
 }
 .stap-pagination i {
-    background-color: #5555ff;
+    background-color: #2d63d4;
     width: 60px;
     height: 60px;
     display: flex;
@@ -3983,7 +3983,7 @@ img.extra-images-two {
     background-color: #fff;
 }
 .project-information ul.social-icon li:hover a {
-    background-color: #4e4eeb;
+    background-color: #2d63d4;
     color: #fff;
     border-color: transparent;
 }
@@ -4010,7 +4010,7 @@ img.extra-images-two {
 .quotes {
     background-color: #f4f4ff;
     padding: 30px;
-    border-left: 5px solid #5555ff;
+    border-left: 5px solid #2d63d4;
     margin-top: 50px; 
 } 
 .quotes > div {
@@ -4058,7 +4058,7 @@ ul.tags-list a {
     display: block;
 } 
 ul.tags-list a:hover {
-    background-color: #5555ff;
+    background-color: #2d63d4;
     color: #fff;
 } 
 .tags-hare h4 {

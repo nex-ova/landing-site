@@ -20,21 +20,21 @@ const TransformsPractice = () => {
       altText: "Billing Insurance",
       title: "Automated Insurance Billing",
       description:
-        "Welly simplifies the billing process, aiming to efficiently handle insurance claims, which can significantly reduce administrative workloads for practices.",
+        "Vionix Care simplifies the billing process, aiming to efficiently handle insurance claims, which can significantly reduce administrative workloads for practices.",
     },
     {
       image: "/images/bot/seamless_accounting_data_integration.webp",
       altText: "Accounting",
       title: "Seamless Accounting Data Integration",
       description:
-        "Welly facilitates smooth data integration, streamlining data entry and claim processing, ensuring rapid transfers between systems for improved accuracy and efficiency.",
+        "Vionix Care facilitates smooth data integration, streamlining data entry and claim processing, ensuring rapid transfers between systems for improved accuracy and efficiency.",
     },
     {
       image: "/images/bot/discover_hidden_benefits.webp",
       altText: "Benefit Discovery",
       title: "Discover Hidden Benefits",
       description:
-        "Welly helps identify overlooked benefits in Medicaid and vision insurance coverage, ensuring that patients receive all available advantages and enhancing their overall experience.",
+        "Vionix Care helps identify overlooked benefits in Medicaid and vision insurance coverage, ensuring that patients receive all available advantages and enhancing their overall experience.",
     },
   ];
 
@@ -43,12 +43,13 @@ const TransformsPractice = () => {
     <div className="row justify-content-center">
       <div className="col-lg-9">
         <h2 className="fs-2 fw-semibold text-primary mb-3">
-          How Welly Transforms Your Practice
+          How Vionix Care Transforms Your Practice
         </h2>
         <p className="fs-5 text-muted mb-5">
-          Welly is designed to make a significant impact in the healthcare
+          Vionix Care is designed to make a significant impact in the healthcare
           industry by offering innovative solutions that enhance operational
-          efficiency. Here are some of the key features that Welly provides:
+          efficiency. Here are some of the key features that Vionix Care
+          provides:
         </p>
       </div>
     </div>

@@ -19,7 +19,7 @@ function WhatWeDo() {
   return (
     <>
       <Header />
-      <PageBanner title="What We Do" image={IMAGES.bannrimg3} />
+      <PageBanner title="How We Do" image={IMAGES.bannrimg3} />
       <section className="gap">
         <RightChoice />
         <TransformsPractice />
