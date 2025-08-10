@@ -4326,3 +4326,12 @@ ul.pagination li a:hover {
 
 
 
+.hover-scale {
+    /* This defines the animation properties for the element's base state. */
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .hover-scale:hover {
+    /* This applies the zoom effect when the user's mouse is over the element. */
+    transform: scale(1.05);
+  }

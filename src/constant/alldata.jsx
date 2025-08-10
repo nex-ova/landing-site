@@ -359,7 +359,7 @@ export const mainMenudata = [
     link: "/",
   },
   { title: "What we do", link: "/what-we-do" },
-  { title: "How we do", link: "#" },
+  { title: "How we do", link: "/how-we-do" },
   { title: "Contact us", link: "/contact" },
 ];
 

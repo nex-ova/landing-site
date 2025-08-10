@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Index from "../pages/home";
 import WhatWeDo from "../pages/whatWeDo/whatWeDo";
+import HowWeDo from "../pages/howWeDo/howWeDo";
 import Index2 from "../pages/home/index-2";
 import Index3 from "../pages/home/index-3";
 import About from "../pages/about/about";
@@ -21,6 +22,7 @@ import Appiontment from "../componenet/apponiment";
 const rootdata = [
   { path: "/", element: <Index /> },
   { path: "/what-we-do", element: <WhatWeDo /> },
+  { path: "/how-we-do", element: <HowWeDo /> },
 
   { path: "/contact", element: <Contact /> },
 ];
