@@ -1,5 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Index from "../pages/home";
+import WhatWeDo from "../pages/whatWeDo/whatWeDo";
+import HowWeDo from "../pages/howWeDo/howWeDo";
 import Index2 from "../pages/home/index-2";
 import Index3 from "../pages/home/index-3";
 import About from "../pages/about/about";
@@ -18,35 +20,24 @@ import ScrollTopButton from "../componenet/scrolltotop";
 import Appiontment from "../componenet/apponiment";
 
 const rootdata = [
-    { path: "/", element: <Index /> },
-    { path: "/index", element: <Index /> },
-    { path: "/index-2", element: <Index2 /> },
-    { path: "/index-3", element: <Index3 /> },
-    { path: "/about", element: <About /> },
-    { path: "/portfolio", element: <Portfolio /> },
-    { path: "/portfolio-details", element: <PortfolioDetails /> },
-    { path: "/services", element: <Services /> },
-    { path: "/services-details", element: <ServicesDeatails /> },
-    { path: "/testimonials", element: <Testimonials /> },
-    { path: "/pricing-table", element: <PricingTable /> },
-    { path: "/faq", element: <Faq /> },
-    { path: "/our-blog", element: <OurBlog /> },
-    { path: "/blog-details", element: <BlogDetails /> },
-    { path: "/contact", element: <Contact /> },
-    { path: "/apponiment", element: <Appiontment /> },
-]
+  { path: "/", element: <Index /> },
+  { path: "/what", element: <WhatWeDo /> },
+  { path: "/how", element: <HowWeDo /> },
+
+  { path: "/contact", element: <Contact /> },
+];
 
 function Root() {
-    return (
-        <BrowserRouter>
-            <Scroll />
-            <Routes>
-                {rootdata.map((data, i) => (
-                    <Route key={i} path={data.path} element={data.element} />
-                ))}
-            </Routes>
-            <ScrollTopButton />
-        </BrowserRouter>
-    );
+  return (
+    <BrowserRouter>
+      <Scroll />
+      <Routes>
+        {rootdata.map((data, i) => (
+          <Route key={i} path={data.path} element={data.element} />
+        ))}
+      </Routes>
+      <ScrollTopButton />
+    </BrowserRouter>
+  );
 }
 export default Root;

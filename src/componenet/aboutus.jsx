@@ -16,7 +16,7 @@ function AboutUs() {
 
         <div className="row">
           <div className="col-lg-6">
-            <div className="about-img hover-img">
+            <div className="about-img ">
               <figure>
                 <img src={IMAGES.about1} alt="img" />
               </figure>
@@ -36,8 +36,8 @@ function AboutUs() {
             </div>
           </div>
         </div>
-        <div className="row mt-5">
-          <div className="col-lg-5">
+        <div className="row mt-5 ">
+          <div className="col-lg-6">
             <div className="about-text">
               <ul className="list-style">
                 <li>
@@ -56,23 +56,22 @@ function AboutUs() {
                   Dedicated to measurable improvements in public health outcomes
                 </li>
               </ul>
-              <Link to={"/about"} className="btn two">
+              <Link to={"/contact"} className="btn two">
                 <span>
                   Contact Us
                   <i className="fa-solid fa-arrow-right" />
                 </span>
               </Link>
-              <img src={IMAGES.sign} alt="img" className="signature" />
             </div>
           </div>
           <div className="col-lg-4">
-            <div className="about-img hover-img w-100">
+            <div className="about-img  w-150">
               <figure>
                 <img src={IMAGES.about2} alt="img" />
               </figure>
             </div>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-2 ">
             <div className="row">
               <div className="col-lg-12 col-md-6">
                 <div className="progressbar-text">

@@ -41,7 +41,7 @@ function Index() {
                   outstanding patient care.
                 </p>
                 <div className="experience">
-                  <Link to={"/about"} className="btn">
+                  <Link to={"/contact"} className="btn">
                     <span>
                       Get Started
                       <i className="fa-solid fa-arrow-right" />
@@ -165,7 +165,7 @@ function Index() {
                     <Link to={"#"}>{data.title}</Link>
                   </h4>
                   <p>{data.descriptions}</p>
-                  <Link to={"/services-details"}>
+                  <Link to={"#"}>
                     Read More
                     <i className="fa-solid fa-arrow-right" />
                   </Link>
@@ -223,43 +223,8 @@ function Index() {
           className="working-process-line"
         />
       </section>
-      <TestiSwiper />
-      <div className="container">
-        <BrandSwiper />
-      </div>
-      <section className="gap section-blog">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-8">
-              <div className="heading">
-                <span># blog</span>
-                <h2>Our Medical Blog.</h2>
-              </div>
-            </div>
-            <div className="col-lg-4">
-              <div className="btn-left">
-                <Link to={"/our-blog"} className="btn">
-                  <span>
-                    View All Blog
-                    <i className="fa-solid fa-arrow-right" />
-                  </span>
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <Blog />
-          </div>
-        </div>
-        <ul className="shaps">
-          <li>
-            <img src={IMAGES.shape7} alt="img" />
-          </li>
-          <li>
-            <img src={IMAGES.shape8} alt="img" />
-          </li>
-        </ul>
-      </section>
+
+      <section className="gap section-blog"></section>
 
       <Footer />
     </>
