@@ -32,10 +32,10 @@ function Contact() {
     setLoading(true);
     setStatus(null);
 
-    const SERVICE_ID = "service_4ccsqzj";
-    const TEMPLATE_ID_USER = "template_328cj7p";
-    const TEMPLATE_ID_TEAM = "template_scoidnd";
-    const PUBLIC_KEY = "o_uNrehO-GWKjrLxk";
+    const SERVICE_ID = process.env.REACT_APP_SERVICE_ID;
+    const TEMPLATE_ID_USER = process.env.REACT_APP_TEMPLATE_ID_USER;
+    const TEMPLATE_ID_TEAM = process.env.REACT_APP_TEMPLATE_ID_TEAM;
+    const PUBLIC_KEY = process.env.REACT_APP_PUBLIC_KEY;
 
     try {
       await emailjs.send(SERVICE_ID, TEMPLATE_ID_USER, formData, PUBLIC_KEY);
