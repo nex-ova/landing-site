@@ -136,8 +136,8 @@ function TermsOfUse() {
               <p>
                 If you have any questions regarding these terms, feel free to
                 contact us at{" "}
-                <a href="mailto:contact@welnexautomation.com">
-                  contact@welnexautomation.com
+                <a href="mailto:team@welnexautomation.com">
+                  team@welnexautomation.com
                 </a>
                 .
               </p>

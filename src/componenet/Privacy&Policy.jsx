@@ -9,9 +9,6 @@ function PrivacyPolicy() {
             <h1 className="display-5 fw-bold mb-4 text-center">
               Privacy & Security Policy
             </h1>
-            <p className="text-center text-muted mb-5">
-              Last Updated: August 10, 2025
-            </p>
 
             <section className="mb-4">
               <h2 className="h3 fw-semibold mb-2">Introduction</h2>
