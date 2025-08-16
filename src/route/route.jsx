@@ -15,6 +15,8 @@ import Faq from "../pages/page/faq";
 import OurBlog from "../pages/blog/our-blog";
 import BlogDetails from "../pages/blog/blog-details";
 import Contact from "../pages/contact/contact";
+import Terms from "../pages/terms/terms";
+import Privacy from "../pages/privacy/privacy";
 import Scroll from "../componenet/scroll";
 import ScrollTopButton from "../componenet/scrolltotop";
 import Appiontment from "../componenet/apponiment";
@@ -23,8 +25,10 @@ const rootdata = [
   { path: "/", element: <Index /> },
   { path: "/what", element: <WhatWeDo /> },
   { path: "/how", element: <HowWeDo /> },
-
   { path: "/contact", element: <Contact /> },
+
+  { path: "/terms", element: <Terms /> },
+  { path: "/privacy", element: <Privacy /> },
 ];
 
 function Root() {

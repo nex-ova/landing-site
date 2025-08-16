@@ -18,7 +18,7 @@ function AboutUs() {
           <div className="col-lg-6">
             <div className="about-img ">
               <figure>
-                <img src={IMAGES.about1} alt="img" />
+                <img src="/bg-2.webp" alt="img" />
               </figure>
             </div>
           </div>
@@ -138,7 +138,7 @@ function AboutUs() {
                       </div>
                     </div>
                   </div>
-                  <h2 className="pt-3">Retention Rate</h2>
+                  <h2 className="pt-3">Cilent Retention</h2>
                 </div>
               </div>
             </div>

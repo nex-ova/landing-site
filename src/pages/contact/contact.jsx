@@ -4,27 +4,68 @@ import Footer from "../../layout/footer";
 import Header from "../../layout/header";
 import SocialIcon from "../../componenet/socialicon";
 import emailjs from "@emailjs/browser";
-import { useRef } from "react";
 import { IMAGES } from "../../constant/theme";
 
+import React, { useState } from "react";
+
 function Contact() {
-  const form = useRef();
-  const sendEmail = (e) => {
-    e.preventDefault();
-    emailjs
-      .sendForm("service_61hny88", "template_5f6jp4o", form.current, {
-        publicKey: "aYOgb_ORYkjD-hXhl",
-      })
-      .then(
-        (result) => {
-          console.log("SUCCESS!", result.text);
-        },
-        (error) => {
-          console.log("FAILED...", error.text);
-        }
-      );
-    e.target.reset();
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    number: "",
+    subject: "",
+    message: "",
+  });
+
+  const [status, setStatus] = useState(null);
+  const [loading, setLoading] = useState(false);
+
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
   };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setLoading(true);
+    setStatus(null);
+
+    const SERVICE_ID = "service_4ccsqzj";
+    const TEMPLATE_ID_USER = "template_328cj7p";
+    const TEMPLATE_ID_TEAM = "template_scoidnd";
+    const PUBLIC_KEY = "o_uNrehO-GWKjrLxk";
+
+    try {
+      await emailjs.send(SERVICE_ID, TEMPLATE_ID_USER, formData, PUBLIC_KEY);
+
+      await emailjs.send(
+        SERVICE_ID,
+        TEMPLATE_ID_TEAM,
+        {
+          ...formData,
+          teamEmail: "team@vionixcare.com",
+        },
+        PUBLIC_KEY
+      );
+
+      setStatus("✅ Emails sent successfully!");
+      setFormData({
+        name: "",
+        email: "",
+        number: "",
+        subject: "",
+        message: "",
+      });
+    } catch (err) {
+      console.error("EmailJS Error:", err);
+      setStatus("❌ Failed to send emails. Please try again.");
+    } finally {
+      setLoading(false);
+    }
+  };
+
   return (
     <>
       <Header />
@@ -52,20 +93,35 @@ function Contact() {
               </div>
               <form
                 className="appiontment contact-form"
-                ref={form}
-                onSubmit={sendEmail}
+                onSubmit={handleSubmit}
               >
                 <div className="row">
                   <div className="col-lg-6">
-                    <input type="text" name="name" placeholder="Your Name" />
-                  </div>
-                  <div className="col-lg-6">
-                    <input type="email" name="email" placeholder="Your Email" />
+                    <input
+                      type="text"
+                      name="name"
+                      value={formData.name}
+                      onChange={handleChange}
+                      placeholder="Your Name"
+                      required
+                    />
                   </div>
                   <div className="col-lg-6">
                     <input
-                      type="number"
+                      type="email"
+                      name="email"
+                      value={formData.email}
+                      onChange={handleChange}
+                      placeholder="Your Email"
+                      required
+                    />
+                  </div>
+                  <div className="col-lg-6">
+                    <input
+                      type="tel"
                       name="number"
+                      value={formData.number}
+                      onChange={handleChange}
                       placeholder="Phone Number"
                     />
                   </div>
@@ -73,20 +129,27 @@ function Contact() {
                     <input
                       type="text"
                       name="subject"
-                      placeholder="Office Addrress"
+                      value={formData.subject}
+                      onChange={handleChange}
+                      placeholder="Subject"
                     />
                   </div>
                   <div className="col-lg-12">
                     <textarea
-                      name="massg"
-                      placeholder="Write A comment..."
+                      name="message"
+                      value={formData.message}
+                      onChange={handleChange}
+                      placeholder="Write a comment..."
+                      required
                     ></textarea>
-                    <button className="btn">
+
+                    <button className="btn" type="submit" disabled={loading}>
                       <span>
-                        Submit Now
+                        {loading ? "Sending..." : "Submit Now"}
                         <i className="fa-solid fa-arrow-right" />
                       </span>
                     </button>
+                    {status && <p style={{ marginTop: "10px" }}>{status}</p>}
                   </div>
                 </div>
               </form>
@@ -97,7 +160,9 @@ function Contact() {
                 <ul className="information-list">
                   <li>
                     <span>Email Address</span>
-                    <Link to="mailto:info123@gmail.com">info123@gmail.com</Link>
+                    <Link to="mailto:team@vionixcare.com">
+                      team@vionixcare.com
+                    </Link>
                   </li>
                   <li>
                     <span>Contact Us</span>

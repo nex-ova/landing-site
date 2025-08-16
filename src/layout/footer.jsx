@@ -131,10 +131,10 @@ function Footer() {
           </p>
           <ul>
             <li>
-              <Link to={"#"}>Terms & Conditions</Link>
+              <Link to={"/terms"}>Terms & Conditions</Link>
             </li>
             <li>
-              <Link to={"#"}>Privacy policy</Link>
+              <Link to={"/privacy"}>Privacy policy</Link>
             </li>
           </ul>
         </div>

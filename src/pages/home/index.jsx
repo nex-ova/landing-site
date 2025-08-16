@@ -98,7 +98,7 @@ function Index() {
             </div>
             <div className="col-lg-6">
               <div className="hero-img">
-                <img src={IMAGES.heroimage} alt="img" />
+                <img src="/bg-1.webp" alt="img" />
                 <ul className="shaps">
                   <li>
                     <img src={IMAGES.shape1} alt="img" />
