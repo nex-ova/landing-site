@@ -1,6 +1,6 @@
 @media(max-width: 1400px) {
 	.hero-text h1 {
-    	font-size: 60px;
+    	font-size: 48px;
      }
     .progressbar canvas {
 	    width: 130px !important;
@@ -751,7 +751,7 @@
 	} 
 	.hero-section .hero-text h1 .main-heading-text,
 	.hero-text h1 {
-    	font-size: 56px;
+    	font-size: 38px;
 	}
 	.heading {
 		padding-bottom: 40px;
@@ -1221,7 +1221,7 @@
 @media(max-width: 576px) {
 	.hero-section .hero-text h1 .main-heading-text,
 	.hero-text h1 {
-    	font-size: 40px;
+    	font-size: 32px;
 	}
 	.row-two {
 	    margin-right: -10px;

@@ -26,7 +26,6 @@ const rootdata = [
   { path: "/what", element: <WhatWeDo /> },
   { path: "/how", element: <HowWeDo /> },
   { path: "/contact", element: <Contact /> },
-
   { path: "/terms", element: <Terms /> },
   { path: "/privacy", element: <Privacy /> },
 ];

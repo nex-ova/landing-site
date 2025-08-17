@@ -14,7 +14,7 @@ function Whychoose() {
                     <img src={IMAGES.chooseus} alt="img" />
                   </figure>
                   <div className="circle-img">
-                    <img alt="img" src={IMAGES.chooseuslogo} />
+                    <img alt="img" src="/favicon.png" />
                     <img
                       alt="img"
                       src={IMAGES.circleimage}
