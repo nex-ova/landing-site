@@ -189,7 +189,7 @@ function Index() {
       <Marquee1 />
       <Marquee2 />
       {/* <Medical /> */}
-      <Whychhoose />
+      <Whychoose />
 
       <section className="working-process-section">
         <div className="container">
