@@ -164,20 +164,40 @@ function Contact() {
                       team@vionixcare.com
                     </Link>
                   </li>
-                  <li>
-                    <span>Contact Us</span>
-                    <Link to="callto:0133542392132">013 354 213 - 92132</Link>
-                  </li>
-                  <li>
-                    <span>Address</span>
-                    <h6>1901 Thornridge Cir. Shiloh</h6>
-                  </li>
-                  <li>
-                    <span>Subject</span>
-                    <h6>Medical and Dentist</h6>
-                  </li>
                 </ul>
                 <SocialIcon />
+              </div>
+
+              <div className="scan-me-box  z-2 mt-4 px-3  border ">
+                <div className="d-flex flex-column py-4 flex-sm-row align-items-center gap-3 px-3">
+                  <div className="w-100 w-sm-50 d-flex justify-content-center">
+                    <img
+                      src="/images/scan-me.webp"
+                      alt="QR Code"
+                      width="220"
+                      height="120"
+                      className="rounded-3 img-fluid"
+                    />
+                  </div>
+                  <div className="w-100 w-sm-50 d-flex flex-column align-items-center align-items-sm-start justify-content-between">
+                    <div className="pt-0">
+                      <p className="text-white fw-medium text-center text-sm-start mb-3">
+                        <span className="fw-bold">Have a query? </span>
+                        Book an appointment with us!
+                      </p>
+                    </div>
+                    <div>
+                      <a
+                        href="https://calendar.app.google/n4XscXZpMNpqmDW59"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="scan-me-btn"
+                      >
+                        <span>Schedule Now</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

@@ -43,7 +43,7 @@ function Index() {
                 <div className="experience">
                   <Link to={"/contact"} className="btn">
                     <span>
-                      Get Started
+                      Book Appointment
                       <i className="fa-solid fa-arrow-right" />
                     </span>
                   </Link>

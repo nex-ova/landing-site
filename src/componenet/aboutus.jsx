@@ -83,7 +83,7 @@ function AboutUs() {
                         value={percentage}
                         strokeWidth={6}
                         styles={buildStyles({
-                          pathColor: "#5050f4",
+                          pathColor: "#2d63d4",
                           trailColor: "#5454FF10",
                           textColor: "#000",
                         })}
@@ -117,7 +117,7 @@ function AboutUs() {
                         value={percentages}
                         strokeWidth={6}
                         styles={buildStyles({
-                          pathColor: "#5050f4",
+                          pathColor: "#2d63d4",
                           trailColor: "#5454FF10",
                           textColor: "#000",
                         })}

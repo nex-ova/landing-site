@@ -28,11 +28,17 @@ function Footer() {
     <footer className="gap no-bottom">
       <div className="container">
         <div className="subscribe">
-          <h2>Subscribe To Regular Newsletters.</h2>
+          <div class="  w-50 ">
+            <h2 class="fs-0">
+              Stay Connected <br />
+              With Us.
+            </h2>
+          </div>
+
           <form ref={form} onSubmit={sendEmail}>
             <input type="email" name="email" placeholder="Enter Your Email" />
             <button className="btn">
-              <span>Subscribe</span>
+              <span>Get Started</span>
             </button>
           </form>
         </div>
@@ -95,23 +101,11 @@ function Footer() {
                   <li>
                     <h6>
                       {" "}
-                      <i> {SVGICONS.address} </i> Address
-                    </h6>
-                    <span>1901 Thornridge Cir. Shiloh</span>
-                  </li>
-                  <li>
-                    <h6>
-                      {" "}
-                      <i> {SVGICONS.phone} </i> Phone Number
-                    </h6>
-                    <Link to="callto:013221392132">013 354 213 - 92132</Link>
-                  </li>
-                  <li>
-                    <h6>
-                      {" "}
                       <i> {SVGICONS.email} </i> email Address
                     </h6>
-                    <Link to="mailto:info123@gmail.com">info123@gmail.com</Link>
+                    <Link to="mailto:team@vionixcare.com">
+                      team@vionixcare.com
+                    </Link>
                   </li>
                 </ul>
               </div>
